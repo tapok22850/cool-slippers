@@ -16,22 +16,19 @@ footer{
 .ksb{
     font-size: 16px;
     border: #6b042f solid 2px;
-    width: 120%;
+    width: 100vw;
     box-sizing: border-box;
     padding: 10px;
     margin: 3px ;
     height: 90%;
     border-radius: 10px;
 }
-main{
-
-}
-main section{
-    font-size:20px;
-    width: 45%;
+main div div section{
+    appearance: none;
+    font-size: 2vw;
     background-color: #ffd1e4 ;
     border-radius: 10px;
-    margin: 15px 5px;
+
     padding: 8px;
 
 }
@@ -52,6 +49,8 @@ main section{
     border-radius: 10px;
 }
 .lol{
+    width: 30px;
+    font-size: 2vw;
     margin: 10px 35px;
     text-decoration: none;
     color: #ffd1e4;
@@ -59,5 +58,11 @@ main section{
 body footer{
     color: #ffd1e4;
     background-color: #ad1756;
-    height: 100px;
+    height: 110px;
+}
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 230px);
 }
