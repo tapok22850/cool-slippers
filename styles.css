@@ -29,7 +29,7 @@ header{
 }
 .butt{
     background-color: #ad1756;
-    width: 100%;
+    width: 50vw;
     height: 50px;
     border-radius: 10px;
 }
@@ -39,4 +39,10 @@ header{
     margin: 10px 35px;
     text-decoration: none;
     color: #ffd1e4;
+}
+body main section img{
+    width: 20vw;
+}
+.butt:hover{
+    background-color: #7c0f3c;
 }
