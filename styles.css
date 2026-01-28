@@ -5,14 +5,6 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-header{
-    height: 70px;
-    display: flex;
-    background-color: #ad1756;
-}
-footer{
-    background-color: #ad1756;
-}
 .ksb{
     font-size: 16px;
     border: #6b042f solid 2px;
@@ -22,19 +14,12 @@ footer{
     margin: 3px ;
     height: 90%;
     border-radius: 10px;
+    
 }
-main div div section{
-    appearance: none;
-    font-size: 2vw;
-    background-color: #ffd1e4 ;
-    border-radius: 10px;
-
-    padding: 8px;
-
-}
-.card{
-    border-radius: 10px;
-    width: 95%;
+header{
+    height: 70px;
+    display: flex;
+    background-color: #ad1756;
 }
 .redfont{
     color: #ea2149;
@@ -54,18 +39,4 @@ main div div section{
     margin: 10px 35px;
     text-decoration: none;
     color: #ffd1e4;
-}
-body footer{
-    color: #ffd1e4;
-    background-color: #ad1756;
-    height: 110px;
-}
-.container {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(2, 230px);
-}
-.butt:hover{
-    background-color: #7c0f3c;
 }
